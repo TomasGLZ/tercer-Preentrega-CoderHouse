@@ -79,12 +79,12 @@ iframe {
 
 .bienvenidos {
   background-color: #ebf3e3;
-  color: #fafafa;
+  color: #747474;
   text-align: center;
   text-transform: uppercase;
   padding: 8px;
 }
-.bienvenidos h2 {
+.bienvenidos h1 {
   font-size: 2rem;
   color: #747474;
 }
