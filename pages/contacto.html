@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="description" content="¡Hola! Somos emprendores apasionados que creamos un emocionante ecommerce especializado en la venta de medias. Nuestro nombre es Maldito Soquete!. dejanos tu informacion y contactanos para cualquier tipo de negocios o etc.">
+    <title>Contacto - Maldito soquete</title>
+    <link rel="shortcut icon" href="../media/ms_logo.jpeg" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- HEADER Y NAV -->
+    <header class="navbar navbar-expand-lg encabezado">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            class="logo"
+            src="../media/ms_logo.jpeg"
+            alt="logo de maldito soquete"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav menuNav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Productos.html">productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Envios.html">Envios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="politica.html">politica de cambio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="bienvenidos">
+        <h1>Contacto</h1>
+      </div>
+
+      <form>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" placeholder="Nombre completo" required />
+
+        <label class="formulario1" for="email">Correo electronico</label>
+        <input
+          type="text"
+          id="email"
+          placeholder="example@gmail.com"
+          required
+        />
+
+        <label class="formulario1" for="phone">telefono (opcional)</label>
+        <input type="text" id="phone" placeholder="Deje su numero aqui" />
+
+        <label for="mensaje">mensaje</label>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Deje su mensaje aqui"
+        ></textarea>
+
+        <input class="botonForm" type="submit" />
+        <input class="botonForm" type="reset" />
+      </form>
+
+      <!-- logo wpp -->
+      <div>
+        <a href="../media/whatsapp.png">
+          <img
+            class="logoWhats"
+            src="../media/whatsapp.png"
+            alt="logo de Whatsapp"
+          />
+        </a>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <div class="footerms">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center border-top"
+      >
+        <p class="col-md-4 mb-0 text-body-secondary">
+          &copy; 2023 Company, Inc
+        </p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img style="width: 100px" src="./media/ms_logo.jpeg" alt="" />
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link px-2 text-body-secondary"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="Productos.html" class="nav-link px-2 text-body-secondary"
+              >Productos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="Envios.html" class="nav-link px-2 text-body-secondary"
+              >Envios</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="politica.html" class="nav-link px-2 text-body-secondary"
+              >Politica de cambio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html" class="nav-link px-2 text-body-secondary"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  </body>
+</html>

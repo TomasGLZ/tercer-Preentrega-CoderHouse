@@ -1,0 +1,22 @@
+//HEADER
+
+.logo {
+  width: 200px;
+}
+
+.encabezado {
+  background-color: $color-back;
+}
+
+.menuNav a {
+  font-size: 1rem;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.bienvenidos {
+  @include titulos
+  }
+
+  
+
