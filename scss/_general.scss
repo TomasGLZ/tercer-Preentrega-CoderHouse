@@ -38,11 +38,16 @@ h1{
   
   /* LOGO DE WHATSAPP */
   
-  .logoWhats {
+  .logoWhatsapp {
+    width: 5rem;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    width: 60px;
+    bottom: 40px;
+    right: 1.5rem;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .logoWhatsapp:hover {
+    width: 6rem;
   }
   
   /* FOOTER */
