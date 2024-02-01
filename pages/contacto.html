@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
-    <meta name="description" content="¡Hola! Somos emprendores apasionados que creamos un emocionante ecommerce especializado en la venta de medias. Nuestro nombre es Maldito Soquete!. dejanos tu informacion y contactanos para cualquier tipo de negocios o etc.">
+    <meta
+      name="description"
+      content="¡Hola! Somos emprendores apasionados que creamos un emocionante ecommerce especializado en la venta de medias. Nuestro nombre es Maldito Soquete!. dejanos tu informacion y contactanos para cualquier tipo de negocios o etc."
+    />
     <title>Contacto - Maldito soquete</title>
-    <link rel="shortcut icon" href="../media/ms_logo.jpeg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../media/ms_logo.jpeg"
+      type="image/x-icon"
+    />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -68,34 +75,40 @@
       <div class="bienvenidos">
         <h1>Contacto</h1>
       </div>
+      <div class="container-fluid">
+        <form>
+          <label for="nombre">Nombre completo</label>
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre completo"
+            required
+          />
 
-      <form>
-        <label for="nombre">Nombre completo</label>
-        <input type="text" id="nombre" placeholder="Nombre completo" required />
+          <label class="formulario1" for="email">Correo electronico</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="example@gmail.com"
+            required
+          />
 
-        <label class="formulario1" for="email">Correo electronico</label>
-        <input
-          type="text"
-          id="email"
-          placeholder="example@gmail.com"
-          required
-        />
+          <label class="formulario1" for="phone">telefono (opcional)</label>
+          <input type="text" id="phone" placeholder="Deje su numero aqui" />
 
-        <label class="formulario1" for="phone">telefono (opcional)</label>
-        <input type="text" id="phone" placeholder="Deje su numero aqui" />
+          <label for="mensaje">mensaje</label>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Deje su mensaje aqui"
+          ></textarea>
 
-        <label for="mensaje">mensaje</label>
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Deje su mensaje aqui"
-        ></textarea>
-
-        <input class="botonForm" type="submit" />
-        <input class="botonForm" type="reset" />
-      </form>
+          <input class="botonForm" type="submit" />
+          <input class="botonForm" type="reset" />
+        </form>
+      </div>
 
       <!-- logo wpp -->
       <div>
@@ -156,8 +169,10 @@
       </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
