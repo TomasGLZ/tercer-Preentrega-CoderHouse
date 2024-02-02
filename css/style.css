@@ -1,5 +1,9 @@
+@charset "UTF-8";
 form {
-  margin-top: 20px;
+  background-color: #ebf3e3;
+  padding: 40px;
+  border-radius: 20px;
+  width: 50%;
 }
 
 label {
@@ -19,19 +23,40 @@ input[type=text], textarea {
   margin-bottom: 10px;
 }
 
-.botonForm {
-  background-color: #333;
-  color: #fff;
+.btn-contacto {
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s;
+  float: right;
+}
+
+.logoms-contacto {
+  width: 60%;
+  height: 40%;
+  align-items: end;
+}
+
+.mainForm {
+  background-image: url(/media/Diseño\ sin\ título.jpg);
 }
 
 body {
   overflow-x: hidden;
+}
+
+h1 {
+  background-color: #ebf3e3;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+  font-size: 2rem;
+  color: #747474;
 }
 
 /* PRODUCTOS */
@@ -51,11 +76,16 @@ iframe {
 }
 
 /* LOGO DE WHATSAPP */
-.logoWhats {
+.logoWhatsapp {
+  width: 5rem;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-  width: 60px;
+  bottom: 40px;
+  right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.logoWhatsapp:hover {
+  width: 6rem;
 }
 
 /* FOOTER */
@@ -79,14 +109,9 @@ iframe {
 
 .bienvenidos {
   background-color: #ebf3e3;
-  color: #747474;
   text-align: center;
   text-transform: uppercase;
   padding: 8px;
-}
-.bienvenidos h1 {
-  font-size: 2rem;
-  color: #747474;
 }
 
 .quienesSomos {

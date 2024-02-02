@@ -73,43 +73,43 @@
       </div>
     </header>
 
-    <main>
+    <main class=" mainForm">
       <div class="bienvenidos">
         <h1>Contacto</h1>
       </div>
       <div class="container-fluid">
-        <form>
-          <label for="nombre">Nombre completo</label>
-          <input
-            type="text"
-            id="nombre"
-            placeholder="Nombre completo"
-            required
-          />
+        <div>
 
-          <label class="formulario1" for="email">Correo electronico</label>
-          <input
-            type="text"
-            id="email"
-            placeholder="example@gmail.com"
-            required
-          />
+              <form class="mt-5 mb-5">
 
-          <label class="formulario1" for="phone">telefono (opcional)</label>
-          <input type="text" id="phone" placeholder="Deje su numero aqui" />
+                  <fieldset>
+                    <div class="mb-3">
+                      <label for="disabledTextInput" class="form-label ">Nombre</label>
+                      <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                      <label for="disabledSelect" class="form-label ">Apellido</label>
+                      <input type="text" id="disabledTextInput" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div class="mb-3">
+                      <label for="disabledSelect" class="form-label">Correo</label>
+                      <input type="email" id="disabledTextInput" class="form-control" placeholder="Correo">
+                    </div>
 
-          <label for="mensaje">mensaje</label>
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Deje su mensaje aqui"
-          ></textarea>
+                    <div class="mb-3 mensaje">
+                      <label for="disabledSelect" class="form-label">Mensaje</label>
+                      <textarea class="form-control" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribenos un mensaje"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-contacto">CONTACTAR</button>
+                  </fieldset>
+                
+              </form>
 
-          <input class="botonForm" type="submit" />
-          <input class="botonForm" type="reset" />
-        </form>
+             
+
+          
+
       </div>
 
       <!-- logo wpp -->
@@ -117,7 +117,7 @@
         <a href="../media/whatsapp.png">
           <img
             class="logoWhatsapp"
-            src="../media/whatsapp.png"
+            src="../media/wpplogo.png"
             alt="logo de Whatsapp"
           />
         </a>
