@@ -1,6 +1,8 @@
 //MAIN
 
+
 .quienesSomos {
+  background-color: $color-back;
   padding: 16px;
   text-transform: uppercase;
   font-weight: bold;
@@ -15,8 +17,19 @@
 }
 
 .clientes {
-  text-align: center;
+  background-color: $color-back;
+  padding: 16px;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
   font-size: 20px;
+}
+
+.hover{
+
+  transition: 0.3s;
+  &:hover {
+    width: 300px;
+    height: 300px;
+  }
 }
