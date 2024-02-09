@@ -25,7 +25,7 @@ input[type=text], textarea {
 }
 
 .imgForm {
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3); /* Definición de la sombra */
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3); /* Definición de la sombra */
   height: 700px;
 }
 
@@ -158,19 +158,14 @@ iframe {
   margin-top: 0px;
 }
 
-.equisPolitica {
-  width: 120px;
-  margin-top: 10px;
-}
-
-.logoEquis2 {
-  text-align: center;
-  margin-top: 0px;
-}
-
 .signoExclamacion {
-  width: 400px;
+  width: 350px;
   margin-top: 0px;
+}
+
+.bg-politica {
+  background-color: #ebf3e3;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); /* Definición de la sombra */
 }
 
 /*# sourceMappingURL=style.css.map */
