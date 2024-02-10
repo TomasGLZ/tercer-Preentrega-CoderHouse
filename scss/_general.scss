@@ -1,6 +1,4 @@
-body {
-    overflow-x: hidden;
-}
+
 
 h1{
   background-color: $color-back;
@@ -11,27 +9,6 @@ h1{
   font-size: 2rem;
   color: #747474;
 }
-
-
-/* PRODUCTOS */
-
-.textoProductos {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
-  }
-
-
-  
-  /* ENVIO IFRAME SUCURSALES*/
-  
-  .sucursales {
-    text-decoration: none;
-  }
-  
-  iframe {
-    display: block;
-    margin: auto;
-  }
   
   /* LOGO DE WHATSAPP */
   
